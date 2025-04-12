@@ -1,6 +1,19 @@
 onething1/wxedge
 --platform=arm64 python:3.11
 
+# Kubernetes
+registry.k8s.io/kube-apiserver:v1.32.0
+registry.k8s.io/kube-controller-manager:v1.32.0
+registry.k8s.io/kube-proxy:v1.32.0
+registry.k8s.io/kube-scheduler:v1.32.0
+registry.k8s.io/conformance:v1.32.0
+
+registry.k8s.io/kube-apiserver:v1.32.3
+registry.k8s.io/kube-controller-manager:v1.32.3
+registry.k8s.io/kube-proxy:v1.32.3
+registry.k8s.io/kube-scheduler:v1.32.3
+registry.k8s.io/conformance:v1.32.3
+
 #ubuntu
 #docker.getcollate.io/openmetadata/db:1.5.6
 #docker.getcollate.io/openmetadata/server:1.5.6
