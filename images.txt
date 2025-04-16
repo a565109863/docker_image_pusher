@@ -14,12 +14,12 @@ registry.k8s.io/pause:3.10
 registry.k8s.io/etcd:3.5.16-0
 
 #kuboard
-eipwork/etcd-host:3.4.16-1 --platform=linux/amd64
-eipwork/etcd-host:3.4.16-2 --platform=linux/amd64
-eipwork/kuboard-agent:v3 --platform=linux/amd64
-eipwork/kuboard:v3 --platform=linux/amd64
-questdb/questdb:6.0.4 --platform=linux/amd64
-questdb/questdb:6.0.5 --platform=linux/amd64
+eipwork/etcd-host:3.4.16-1
+eipwork/etcd-host:3.4.16-2
+eipwork/kuboard-agent:v3
+eipwork/kuboard:v3
+questdb/questdb:6.0.4
+questdb/questdb:6.0.5
 
 #ubuntu
 #docker.getcollate.io/openmetadata/db:1.5.6
