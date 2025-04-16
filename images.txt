@@ -2,11 +2,6 @@ onething1/wxedge
 --platform=arm64 python:3.11
 
 # Kubernetes
-registry.k8s.io/kube-apiserver:v1.32.0
-registry.k8s.io/kube-controller-manager:v1.32.0
-registry.k8s.io/kube-proxy:v1.32.0
-registry.k8s.io/kube-scheduler:v1.32.0
-registry.k8s.io/conformance:v1.32.0
 
 registry.k8s.io/conformance:v1.32.3
 
@@ -17,6 +12,14 @@ registry.k8s.io/kube-proxy:v1.32.3
 registry.k8s.io/coredns/coredns:v1.11.3
 registry.k8s.io/pause:3.10
 registry.k8s.io/etcd:3.5.16-0
+
+#kuboard
+eipwork/etcd-host:3.4.16-1 --platform=linux/amd64
+eipwork/etcd-host:3.4.16-2 --platform=linux/amd64
+eipwork/kuboard-agent:v3 --platform=linux/amd64
+eipwork/kuboard:v3 --platform=linux/amd64
+questdb/questdb:6.0.4 --platform=linux/amd64
+questdb/questdb:6.0.5 --platform=linux/amd64
 
 #ubuntu
 #docker.getcollate.io/openmetadata/db:1.5.6
