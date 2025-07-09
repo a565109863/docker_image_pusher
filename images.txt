@@ -1,6 +1,9 @@
 onething1/wxedge
 --platform=arm64 python:3.11
 
+# doris
+apache/doris:latest
+
 # Kubernetes
 #v1.33
 registry.k8s.io/kube-apiserver:v1.33.1
