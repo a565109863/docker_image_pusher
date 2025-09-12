@@ -1,3 +1,9 @@
+#twenty
+twentycrm/twenty-server:latest
+twentycrm/twenty-front:latest
+twentycrm/twenty-postgres:latest
+
+
 onething1/wxedge
 --platform=arm64 python:3.11
 
