@@ -3,6 +3,8 @@ twentycrm/twenty-server:latest
 twentycrm/twenty-front:latest
 twentycrm/twenty-postgres:latest
 
+twentycrm/twenty:latest
+
 
 onething1/wxedge
 --platform=arm64 python:3.11
