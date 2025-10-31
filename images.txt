@@ -1,5 +1,6 @@
 #doris
-apache/doris:doris-all-in-one-1.2.7.1
+#apache/doris:doris-all-in-one-1.2.7.1
+#apache/doris:doris-all-in-one-2.1.0 
 
 #twenty
 twentycrm/twenty-server:latest
